@@ -1,0 +1,21 @@
+Write a Python function to find the intersection of two lists.
+Input: [1, 2, 3, 4], [3, 4, 5, 6]
+
+
+
+
+Solution
+
+
+def find_intersection(a, b):
+    x=set(a)
+    y=set(b)
+    intersection=x.intersection(y)
+    return list(intersection)
+a=[1, 2, 3, 4]
+b=[3, 4, 5, 6]
+print(find_intersection(a,b))
+
+
+
+Output: [3, 4]
