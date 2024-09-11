@@ -1,0 +1,13 @@
+Write a Python function to reverse a given string.
+Input: "hello"
+
+
+Solution
+
+def reverse(s):
+    return s[::-1]
+input = "hello"
+print(reverse(input))
+
+
+Output: "olleh"
